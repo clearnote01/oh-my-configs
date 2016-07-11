@@ -1,0 +1,7 @@
+
+git remote add origin https://github.com/clearnote01/Manga.git
+
+git config credential.helper store # to save pasword for repo
+git rebase # to re-word commit, squash redundant commits,etc
+git checkout # 
+git diff # 
