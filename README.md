@@ -1,6 +1,6 @@
-#oh-my-configs
 
-Best configuration ever done for :-
+
+#####Best configuration ever for -
 
 1. Neovim (Vi Improved Improved)
 2. zsh (cause I can't fish)
@@ -12,7 +12,7 @@ Best configuration ever done for :-
 
 ====
 
-##Here is a list of all the programs and utilities I use to make my life easier :-
+#####Here is a list of all the programs and utilities I use to make my life easier :-
 
 1. File Manager - Dolphin,Ranger(not very fond of either)
 2. Music Manager - cmus(primary),amarok(cause,lyrics!),ncmcpp,clementine
