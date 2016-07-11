@@ -1,0 +1,116 @@
+[global_config]
+  borderless = True
+  broadcast_default = off
+  enabled_plugins = ActivityWatch, LaunchpadCodeURLHandler, APTURLHandler, LaunchpadBugURLHandler
+  inactive_color_offset = 0.82
+  suppress_multiple_term_dialog = True
+  title_font = Noto Sans 10
+  title_hide_sizetext = True
+  title_inactive_bg_color = "#8a8c96"
+  title_transmit_bg_color = "#1c1c1c"
+  title_use_system_font = False
+  use_custom_url_handler = True
+[keybindings]
+  broadcast_all = None
+  broadcast_group = None
+  broadcast_off = None
+  close_term = <Primary><Shift>q
+  close_window = None
+  cycle_prev = None
+  edit_window_title = None
+  go_down = None
+  go_left = None
+  go_next = None
+  go_prev = None
+  go_right = None
+  go_up = None
+  group_all = None
+  group_tab = None
+  hide_window = None
+  insert_number = None
+  insert_padded = None
+  layout_launcher = None
+  new_terminator = None
+  new_window = None
+  next_tab = None
+  prev_tab = None
+  reset = None
+  reset_clear = None
+  resize_down = <Primary><Shift>Down
+  resize_left = <Primary><Shift>Left
+  rotate_ccw = None
+  rotate_cw = None
+  split_horiz = <Primary><Shift>h
+  split_vert = <Primary><Shift>l
+  toggle_scrollbar = None
+  ungroup_all = None
+  ungroup_tab = None
+[layouts]
+  [[default]]
+    [[[child1]]]
+      parent = window0
+      profile = default
+      type = Terminal
+    [[[window0]]]
+      parent = ""
+      type = Window
+  [[main]]
+    [[[child0]]]
+      fullscreen = False
+      last_active_term = 1645b4da-88b8-4b88-8ab2-1f367b3253ac
+      last_active_window = True
+      maximised = True
+      order = 0
+      parent = ""
+      position = 702:0
+      size = 664, 739
+      title = /bin/bash
+      type = Window
+    [[[child1]]]
+      order = 0
+      parent = child0
+      position = 367
+      ratio = 0.5
+      type = VPaned
+    [[[child2]]]
+      order = 0
+      parent = child1
+      position = 329
+      ratio = 0.499246987952
+      type = HPaned
+    [[[terminal3]]]
+      order = 0
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = 1645b4da-88b8-4b88-8ab2-1f367b3253ac
+    [[[terminal4]]]
+      order = 1
+      parent = child2
+      profile = default
+      type = Terminal
+      uuid = b3015229-29ba-4486-8bf3-14057be5f9d1
+    [[[terminal5]]]
+      order = 1
+      parent = child1
+      profile = default
+      type = Terminal
+      uuid = 0fd0e432-857f-4a84-b21d-1165419e15a6
+[plugins]
+[profiles]
+  [[default]]
+    allow_bold = False
+    background_color = "#06030f"
+    background_darkness = 0.8
+    background_image = /home/utkarsh/Pictures/IMG_20151003_175635222222.jpg
+    background_type = transparent
+    custom_command = /bin/zsh
+    font = Inconsolata for Powerline Medium 10
+    foreground_color = "#839496"
+    palette = "#bbbbbb:#aa0000:#00aa00:#c0711b:#4e65ff:#aa00aa:#00aaaa:#aaaaaa:#efefef:#ff5555:#ba6400:#ffff55:#b6b6bf:#ff55ff:#7fb1b1:#8e98ef"
+    scroll_background = False
+    scrollback_infinite = True
+    scrollbar_position = hidden
+    use_custom_command = True
+    use_system_font = False
+    visible_bell = True
